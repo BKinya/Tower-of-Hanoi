@@ -26,7 +26,7 @@ Recursion may be simpler, more intuitive
 
 Recursion may be efficient from the programmers point of view
 
-Recursion may not be efficient from computer point  of view
+Recursion may not be efficient from computer point  of view. One of the downsides of recursion is memory consumption since a stack is maintained with each level of depth. An iterative approach is preferred to save on memory since the variables of each previous iteration are replaced or reused.
 
 More information about recursion can be found here: https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22
 
