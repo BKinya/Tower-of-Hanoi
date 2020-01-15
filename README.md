@@ -21,7 +21,7 @@ Binding variables in a scope are not changed by recursive call
 flow control passes back to previous scope once the function call returns a value
 
 
-### Facts about rescurion
+### Facts about recursion
 Recursion may be simpler, more intuitive
 
 Recursion may be efficient from the programmers point of view
