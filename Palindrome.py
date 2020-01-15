@@ -4,7 +4,6 @@ Created on Tue Jan 14 10:06:33 2020
 
 @author: user
 """
-
 ##remove punctuations and space in the string
 def toChars(s):
     s = s.lower()
@@ -34,8 +33,7 @@ def isPalindrome_reversing(s):
         return False
     
     return True
-    
-##reverse a string    
+    ##reverse a string    
 def reverse(s):
     return s[::-1]
  
