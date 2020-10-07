@@ -16,10 +16,10 @@ def fibo_recursive(n):
         return fibo_recursive(n-1) + fibo_recursive(n-2)
 
 ###fibonacci using an iterative algorithm
-def fibo_iterative(n):
+val=int(input("Input the term "))
+def fibo_iterative(val):
     first_num, second_num = 1, 1
     for i in range(n + 1):
         first_num, second_num = second_num, first_num+second_num
     return second_num
-        
-print(fibo_recursive(12))
+print(fibo_recursive(val))
